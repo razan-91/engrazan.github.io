@@ -1,0 +1,50 @@
+.img-hvr {
+  overflow: hidden;
+  max-width: 100%;
+  transform-origin: center center;
+  transition:transform 0.4s ease-in-out  ;
+  -webkit-transition:transform 0.4s ease-in-out  ;
+  -moz-transition:transform 0.4s ease-in-out  ;
+  -ms-transition:transform 0.4s ease-in-out  ;
+  -o-transition:transform 0.4s ease-in-out  ;
+}
+
+.img-hvr:hover  ,
+.img-hvr:focus  {
+    transform: scale(1.1);
+
+}
+
+.figure{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 100%;
+    transform-origin: center center;
+    transition: transform 0.4s ease-in-out;
+    -webkit-transition: transform 0.4s ease-in-out;
+    -moz-transition: transform 0.4s ease-in-out;
+    -ms-transition: transform 0.4s ease-in-out;
+    -o-transition: transform 0.4s ease-in-out;
+}
+.figure .txt-hvr .txticon-hvr {
+     transition: color 0.4s ease-in-out;
+      -webkit-transition: color 0.4s ease-in-out; 
+      -moz-transition: color 0.4s ease-in-out;
+       -ms-transition: color 0.4s ease-in-out;
+        -o-transition: color 0.4s ease-in-out;
+}
+.figure .clickable-card img {
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out;
+  }
+  .figure:hover .txticon-hvr,
+.figure:focus .txticon-hvr,
+.figure:hover .txt-hvr,
+.figure:focus .txt-hvr {
+  color: #61dafb;
+}
+.figure:hover img,
+.figure:focus img {
+  transform: scale(1.1);
+}
